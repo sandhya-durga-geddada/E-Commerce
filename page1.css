@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+.Header{
+    width: 100%;
+    height: 70px;
+    background-color: #F84C96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 22px;
+}
+.Logo{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchBar{
+    width: 40%;
+    height: 100%;
+}
+.Login{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Cart{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.SlideBar{
+    height: 310px;
+    width: 100%;
+}
+.Body{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.SelectBar{
+    width: 17%;
+    height: 100%;
+    background-color: #F84C96;
+    font-size: 26px;
+    color: white;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Content{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: "10px";
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.obj{
+    height: 300px;
+    width: 230px;
+    border: 1px solid #F84C96;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.slick-dots li button{
+    display: none;
+}
+#a{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: #F84C96;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Options{
+    width: 85%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.InOption{
+    width: 80%;
+    height: 15%;
+    border: 2px solid #CAF991;
+    box-shadow: 4px 4px 5px #fa59a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  Hand, cursive;
+
+}
+.InOption:hover{
+    scale: 1.1;
+    border: 1px solid #fa59a5;
+    box-shadow: 4px 4px 5px #fa59a5;
+}
+.Content::-webkit-scrollbar {
+    display: none;
+  }
+body::-webkit-scrollbar {
+    display: none;
+  }
+.B1{
+    background-color: transparent ;
+    border: 1px solid transparent;
+    color: #F84C96;
+    font-size: 15px;
+    font-weight: bold;
+}
+.offer{
+    height: fit-content;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.obj{
+    height: 300px;
+    width: 220px;
+    border: 1px solid #F84C96;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.LikeButton{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fa59a5;
+    font-size: 23px;
+}
+.Img{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-size: 100% 100%;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Desc{
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
